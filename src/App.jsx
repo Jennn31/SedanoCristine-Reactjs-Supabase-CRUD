@@ -3,6 +3,7 @@ import { supabase } from "./supabase-client";
 import "./App.css";
 
 export default function App() {
+
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState({ title: "", description: "" });
   const [newDescription, setNewDescription] = useState("");
